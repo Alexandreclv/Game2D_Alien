@@ -14,7 +14,7 @@ class Ship:
 
         # Obter o diretório onde este arquivo está
         current_dir = Path(__file__).parent
-        image_path = current_dir.parent / 'images' / 'alien.bmp'
+        image_path = current_dir.parent / 'images' / 'ship.bmp'
         self.image = pygame.image.load(str(image_path))
         # o pygame trata os elementos como retangulos, tornando seu processamento eficiente
         self.rect = self.image.get_rect()
